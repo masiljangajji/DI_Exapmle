@@ -9,8 +9,6 @@ import org.springframework.context.annotation.ImportResource;
 
 // 이건 설정하는 파일이야
 @Configuration
-// JavaConfiguration 에서 XML 설정을 사용할 수 있습니다.
-@ImportResource("classpath:/beans.xml")
 public class JavaConfig {
 
     @Bean
