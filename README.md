@@ -1,4 +1,5 @@
-## feature/01 프로젝트 셋팅 
+## feature/0   프로젝트 기본셋팅
+## feature/01  beans.xml 기본셋팅
 ## feature/02 korean , english DI 
 ## feature/03 LanguageSpeakService 생성자 주입방식 DI
 ## feature/04 페키지 구조 변경 및 chef 클래스 추가
