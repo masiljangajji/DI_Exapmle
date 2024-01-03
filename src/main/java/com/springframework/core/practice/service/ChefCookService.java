@@ -3,9 +3,12 @@ package com.springframework.core.practice.service;
 import com.springframework.core.practice.domain.chef.Chef;
 
 public class ChefCookService {
-    private final Chef chef;
+    private Chef chef;
 
-    public ChefCookService(Chef chef) {
+    public ChefCookService() {
+    }
+
+    public void setKoreanChef(Chef chef) {
         this.chef = chef;
     }
 
