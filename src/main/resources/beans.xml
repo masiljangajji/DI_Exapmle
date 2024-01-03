@@ -8,5 +8,9 @@
 
     <bean id="korean" class="com.springframework.core.practice.language.domain.Korean"/>
 
+    <bean id="languageSpeakService" class="com.springframework.core.practice.language.service.LanguageSpeakService">
+        <constructor-arg ref="korean"/>
+    </bean>
+
 
 </beans>

@@ -2,6 +2,7 @@ package com.springframework.core.practice.language;
 
 import com.springframework.core.practice.language.domain.English;
 import com.springframework.core.practice.language.domain.Korean;
+import com.springframework.core.practice.language.service.LanguageSpeakService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class XmlMain {
@@ -18,6 +19,13 @@ public class XmlMain {
             Korean korean = context.getBean("korean", Korean.class);
             english.hello();
             korean.hello();
+
+
+            LanguageSpeakService languageSpeakService =
+                    context.getBean("languageSpeakService", LanguageSpeakService.class);
+
+            languageSpeakService.speak();
+
         }
 
     }
