@@ -4,5 +4,9 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean id="english" class="com.springframework.core.practice.language.domain.English"/>
+
+    <bean id="korean" class="com.springframework.core.practice.language.domain.Korean"/>
+
 
 </beans>
