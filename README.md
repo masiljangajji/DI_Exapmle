@@ -7,5 +7,5 @@ https://masiljangajji-coding.tistory.com/53 해당 글에대한 예시를 다룹
 ## feature/04 페키지 구조 변경 및 chef 클래스 추가
 ## feature/05 autowired byName
 ## feature/06 XML기반 Annotation 사용
-## feature/07 Java Configuration 사용
+## feature/07 Java Configuration 사용 (https://github.com/masiljangajji/DI_Exapmle/commit/69ad11e0d3398d3a08c164403de5d21d6c8ec7cf) 
 ## feature/08 XML없이 Java Configuration으로만 설정
