@@ -1,4 +1,4 @@
-package com.springframework.core.practice.language.domain;
+package com.springframework.core.practice.domain.lang;
 
 public class Korean implements Language {
     @Override

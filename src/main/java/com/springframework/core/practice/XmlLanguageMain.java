@@ -1,11 +1,11 @@
-package com.springframework.core.practice.language;
+package com.springframework.core.practice;
 
-import com.springframework.core.practice.language.domain.English;
-import com.springframework.core.practice.language.domain.Korean;
-import com.springframework.core.practice.language.service.LanguageSpeakService;
+import com.springframework.core.practice.domain.lang.English;
+import com.springframework.core.practice.domain.lang.Korean;
+import com.springframework.core.practice.service.LanguageSpeakService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class XmlMain {
+public class XmlLanguageMain {
 
 
     public static void main(String[] args) {

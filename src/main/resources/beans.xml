@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="
-        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="english" class="com.springframework.core.practice.language.domain.English"/>
 
-    <bean id="korean" class="com.springframework.core.practice.language.domain.Korean"/>
+    <bean id="english" class="com.springframework.core.practice.domain.lang.English"/>
 
-    <bean id="languageSpeakService" class="com.springframework.core.practice.language.service.LanguageSpeakService">
-        <constructor-arg ref="korean"/>
+    <bean id="korean" class="com.springframework.core.practice.domain.lang.Korean"/>
+
+    <bean id="languageSpeakService" class="com.springframework.core.practice.service.LanguageSpeakService">
+        <property name="language" ref="english"/>
     </bean>
 
 
